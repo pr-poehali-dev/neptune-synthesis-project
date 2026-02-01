@@ -1,13 +1,13 @@
-import { Sparkles, Sun, Diamond, Bird, Activity, Zap, Circle } from "lucide-react"
+import { Trophy, Target, Crown, Swords, Shield, Zap, Flame } from "lucide-react"
 
 const partners = [
-  { name: "Синергия", icon: Sparkles },
-  { name: "Горизонт", icon: Sun },
-  { name: "Катализ", icon: Diamond },
-  { name: "Феникс", icon: Bird },
-  { name: "Пульс", icon: Activity },
-  { name: "Солярис", icon: Zap },
-  { name: "Аврора", icon: Circle },
+  { name: "1-е место SS2", icon: Trophy },
+  { name: "50+ побед", icon: Target },
+  { name: "TOP клан", icon: Crown },
+  { name: "PVP мастера", icon: Swords },
+  { name: "Легендарные", icon: Shield },
+  { name: "Быстрая тактика", icon: Zap },
+  { name: "Непобедимые", icon: Flame },
 ]
 
 export function PartnersSection() {
